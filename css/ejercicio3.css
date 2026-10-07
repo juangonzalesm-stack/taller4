@@ -1,0 +1,98 @@
+ * {
+    margin: 0;
+    padding: 0;
+}
+ 
+body {
+    font-family: "Raleway", Arial, sans-serif;
+    background-color: #ffffff;
+    color: #555555;
+}
+ 
+
+.marco-principal {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+ 
+
+.cabecera-seccion h1 {
+    font-size: 36px;
+    font-weight: 300;
+    color: #2e6094;
+    margin-bottom: 20px;
+}
+ 
+
+.resumen p {
+    font-size: 13px;
+    line-height: 1.9;
+    margin-bottom: 50px;
+}
+ 
+
+a {
+    color: #2e6094;
+    text-decoration: none;
+}
+ 
+
+.cuadricula-ofertas {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 60px;
+    row-gap: 50px;
+}
+ 
+
+.bloque-oferta {
+    display: flex;
+    align-items: flex-start;
+    gap: 25px;
+}
+ 
+.pictograma {
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+}
+ 
+.detalle h2 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #2e6094;
+    margin-bottom: 15px;
+}
+ 
+.detalle p {
+    font-size: 13px;
+    line-height: 2;
+}
+ 
+.detalle strong {
+    color: #222222;
+}
+ 
+
+.nota-codigo {
+    font-style: italic;
+    font-size: 11px;
+}
+ 
+
+.boton-detalles {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 12px 22px;
+    background-color: #2e6094;
+    color: #ffffff;
+    font-size: 13px;
+    transition: background-color 0.3s;
+}
+ 
+.boton-detalles:hover {
+    background-color: #1f4469;
+}
+ 
+
